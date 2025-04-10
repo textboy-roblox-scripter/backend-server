@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  background: #111;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #9f6fff;
+}
+
+form {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #9f6fff44;
+}
+
+input[type="file"] {
+  margin: 10px 0;
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  background: #9f6fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
